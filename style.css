@@ -14,6 +14,10 @@ h1{
     font-size: xx-large;
     
 }
+h1:hover{
+    text-shadow: 05px 0px 0px rgb(23, 158, 179), 0px 5px 5px rgb(122, 215, 230);
+}
+
 form{
     /* font and text*/
     text-align: center;
@@ -21,7 +25,7 @@ form{
     font-weight: bold;
     font-family: sans-serif;
     font-style: normal;
-    color: rgb(23, 158, 179);
+    color: rgb(25, 26, 26);
     /*background*/
     background: linear-gradient(to right, skyblue,lightgreen);
     background-repeat: no-repeat;
@@ -38,19 +42,21 @@ form{
     width: 300px;
     margin-right: auto;
     margin-left: auto;
-    
-    
 }
-#reset{
-     color: rgb(255, 0, 0);
+form:hover{
+    background: linear-gradient(to right, skyblue,lightgreen);
+
+}
+#reset:hover{
+     background-color: rgb(255, 0, 0);
       border: 10;
 }
-#submit{
-    color: green;
+#submit:hover{
+    background-color: green;
      border: 10; 
 }
 
-button{
+button:hover{
     background-color: rgb(45, 77, 236) 
     
 }
